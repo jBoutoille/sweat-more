@@ -1,0 +1,150 @@
+    /* TEXTES */
+    @font-face {
+        font-family: 'cabin_regular';
+        src: url('../font/Cabin/Cabin-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+/*--------------- contact form --------------- */
+
+.wow{
+      font-family: 'cabin_regular';
+      color: #FF9100
+}
+
+.inscrit a{
+      list-style-type: none;
+      text-decoration: none;
+      color: #FF9100;
+}
+
+.inscrit:hover a{
+      text-decoration: underline;
+}
+
+#formulaire{
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      padding-top: 12vh;
+}
+
+#formulaire .wow{
+      font-weight: bold;
+      margin: 2.5vh 1.4%;
+      font-family: 'cabin_regular';
+      color: #2E364F;
+      font-size: 4vh;
+}
+
+#formulaire .row {
+      width: 75vw;
+}
+#formulaire .wow label{
+      font-family: 'cabin_regular';
+      color: #2E364F;
+}
+
+#formulaire #contact-form {
+      margin: 2% 1%;
+}
+
+#formulaire #contact-form ul {
+      list-style: none;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      list-style: none;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+#formulaire #contact-form li {
+      font-size: 1em;
+   
+}
+
+#formulaire #contact-form label {
+      display: block;
+      font-size: 1em;
+      color: black;
+      padding-left: 5px;
+}
+
+#formulaire #contact-form input, #contact-form textarea {
+      width: 100%;
+      padding: 1px;
+      border: none;
+      resize: vertical;
+      background: transparent;
+      color: black;
+      font-weight: bolder;
+      font-family: 'cabin_regular';
+      color: #2E364F;
+}
+
+#formulaire input:focus {
+      outline: none;
+      border: none;
+}
+
+#formulaire textarea:focus {
+      outline: none;
+      border: none;
+}
+
+#formulaire .fadeInUp{
+      width:50vh;
+}
+
+#formulaire .textarea {
+      border-bottom: 1.5px solid #FF9100;
+      width: 100%;
+}
+
+.textarea1{
+      border-bottom: 1.5px solid #FF9100;
+      width: 100%;
+}
+
+#formulaire .send {
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 1vh 2vh;
+      background: #2e364f;
+      color: #FF9100;
+      font-size: 2vh;
+      letter-spacing: 1.5px;
+      font-family: 'cabin_regular';
+      transition: all 1s;
+      border:none;
+      width: 25vh;
+}
+
+#formulaire .send:hover {
+      color: #EBE5DB;
+      cursor: pointer;
+}
+
+#formulaire .send a{
+      font-weight: bold;
+      text-transform: uppercase;
+      background: transparent;
+      color: #FF9100;
+      font-size: 1em;
+      letter-spacing: 1.5px;
+      font-family: 'cabin_regular';
+      transition: all 1s;
+}
+#formulaire .send a:hover{
+      background: #2E364F;
+      color:white;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 1s;
+}
+
